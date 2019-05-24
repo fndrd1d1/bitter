@@ -1,5 +1,5 @@
 pub fn convert_to_number(input: String) -> u64 {
-    let str_val = input.trim().to_lowercase();
+    let str_val = input.trim().to_lowercase().replace(" ", "");
     let val:u64;
     if str_val.starts_with("0x") {
         let len = str_val[2..].len();
