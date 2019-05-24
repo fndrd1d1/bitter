@@ -5,8 +5,6 @@ mod convertinput;
 #[derive(StructOpt)]
 #[structopt(name= "Bitter", about = "Prints active bits of a value")]
 struct Opt {
-    //#[structopt(short = "c", long="celsius")]
-    //celsius: bool,
     #[structopt()]
     value: String,
 }
