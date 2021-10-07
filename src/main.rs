@@ -17,4 +17,5 @@ fn main() {
     for i in bit_vec.iter() {
         print!("{} ", i);
     }
+    print!("\n");
 }
